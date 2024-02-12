@@ -29,10 +29,34 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-section {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -75,6 +99,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.footer-container {
+  margin-top: 25px;
 }
 
 @media (max-width: 900px) {
