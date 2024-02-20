@@ -5,7 +5,7 @@
     <title>Projects</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,8 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/faa81a97be.js" crossorigin="anonymous"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Jill is a television producer who is transitioning to front-end development">
 </head>
 
 <body>
@@ -30,16 +31,16 @@
             </a>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/" title="Homepage">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="/about.html" title="About Jill">About</a>
                 </li>
                 <li class="active">
-                    <a href="project.html">Projects</a>
+                    <a href="/project.html" title="Jill's Projects">Projects</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact.html" title="Contact Jill">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -49,23 +50,23 @@
             <h1 class="mb-5">Take a look at what I've been working on!</h1>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="">
+                    <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="yogurt photo">
                     <h3 class="text-center m-0">Yogurt Project</h3>
                     <p class="text-center text-muted">Built with HTML and CSS</p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="">
+                    <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="weather app photo">
                     <h3 class="text-center m-0">Weather App</h3>
                     <p class="text-center text-muted">Built with HTML, CSS, and Javascript</p>
                 </div>
 
                 <div class="col-md-6 mb-4">
-                    <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="">
+                    <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="dictionary app photo">
                     <h3 class="text-center m-0">Dictionary App</h3>
                     <p class="text-center text-muted">Built with HTML, CSS, and Javascript</p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="">
+                    <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="translation app photo">
                     <h3 class="text-center m-0">Translation App</h3>
                     <p class="text-center text-muted">Built with HTML, CSS, and Javascript</p>
                 </div>
@@ -73,7 +74,34 @@
         </div>
     </div>
 
-
+    <footer class="footer-container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h4>Work Inquiry</h4>
+                <p class="text-muted">Let's work together!</p>
+            </div>
+            <div>
+                <a class="btn btn-branding mt-3" href="/contact" target="_blank">Contact Me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:jill.scanlon@gmail.com" class="email-link">jill.scanlon@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/JKScan87" target="_blank" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jill-s-821a1123/" target="_blank" title="Linkedin Profile">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="text-center mt-4">
+            This project was coded by <a href="https://www.shecodes.io/graduates/63796-jill-scanlon">Jill Scanlon</a>
+            and is
+            open-sourced<a href="https://github.com/JKScan87/js-portfolio-project.git"> on GitHub</a> and hosted <a
+                href="https://joyful-sherbet-b59507.netlify.app/">on Netlify</a>
+        </p>
+    </footer>
 </body>
 
 </html>
